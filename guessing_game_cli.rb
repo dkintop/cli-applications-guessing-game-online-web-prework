@@ -14,7 +14,7 @@ def run_guessing_game
   end
   
   
-  if user_input.to_i == Integer && user_input.to_i != comp_num
+  if user_input.to_i != "exit" && user_input.to_i != comp_num
     puts "Sorry!, The computer guessed #{comp_num}"
   end
   
